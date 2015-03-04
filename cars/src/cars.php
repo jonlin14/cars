@@ -11,6 +11,7 @@
             $this->price = $price;
             $this->miles = $miles;
             $this->image = $image;
+          }
 
             function setModel($newModel){
                 $this->model = $newModel;
@@ -52,7 +53,7 @@
                 return $this->image;
             }
         }
-    }
+    
 
     $porsche = new Car ("Porsche", 45555, 9820, "images/porsche.jpg");
     $mercedes = new Car ("Mercedes", 35245, 3423, "images/mercedes.jpg");
